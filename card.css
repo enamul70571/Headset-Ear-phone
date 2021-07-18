@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 15rem;
+  height: 28rem;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 30px lightseagreen, -10px -10px 30px lightgray;
+}
+
+.card-image {
+  width: 15rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.card-body p {
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.small-text {
+  font-size: 13px;
+  color: gray;
+}
+
+.cross {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.green {
+  color: green;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.compare {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  margin-left: 5px;
+}
+.footer-image {
+  margin-top: 10px;
+  justify-content: space-between;
+}
